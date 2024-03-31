@@ -24,6 +24,9 @@ def read_all(filename: str) -> str:
 
 
 def read_all_new_file(f2: str) -> str:
+    """
+    Возвращает всё содержимое нового файла
+    """
     with open(new_file, "r", encoding="utf-8") as filename:
         return filename.read()
 
